@@ -9,7 +9,7 @@
  *
  * Return: ...
  */
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
 	ud_t ud_obj;
 	int val = 0, i = 0;
