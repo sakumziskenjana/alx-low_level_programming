@@ -8,7 +8,7 @@
  * Return: number of nodes in h.
  */
 
-char size_t print_list(const list_t *h)
+int size_t print_list(const list_t *h)
 {
 	size_t nodes = 0;
 
