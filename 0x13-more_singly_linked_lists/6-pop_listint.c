@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "lists.h"
 
 /**
@@ -13,11 +15,13 @@ int pop_listint(listint_t **head)
 
 	if (head == NULL)
 		return (0);
+
 	if (*head == NULL)
 		 return (0);
 	pop_node = *head;
 	i = (*head)->n;
 	*head = (*head)->next;
+
 	free(pop_node);
 
 	return (i);
