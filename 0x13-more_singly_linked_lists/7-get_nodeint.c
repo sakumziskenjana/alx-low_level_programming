@@ -5,7 +5,7 @@
  * nth node of a listint_t linked list.
  * @head: input.
  * @index: the returning index
- * Return: NULL
+ * Return: NUll
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
